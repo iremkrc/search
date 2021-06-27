@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Google</title>
+        <style>
+            a{
+                float:right;
+                margin-left: 10px;
+                margin-right: 10px;
+            }
+            img{
+                display: flex;
+                margin-left: auto;
+                margin-right: auto;
+                align-items: center;
+                margin-top: 100px;
+            }
+            #q{
+                display: flex;
+                margin-left: auto;
+                margin-right: auto;
+                align-items: center;
+                margin-top: 20px;
+                width: 500px;
+                height: 40px;
+                font-size: 16px;
+                border: 1px solid silver;
+                border-radius: 25px;
+                padding-left: 20px;
+            }
+            div{
+                text-align: center;
+            }
+            .submit{
+                font-size: 16px;
+                background-color: rgb(245, 245, 245);
+                border: 1px solid rgb(245, 245, 245);
+                border-radius: 5px;
+                padding: 10px;
+                margin: 10px;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <a href="advanced.html">Advanced Search</a>
+        <a href="image.html">Images</a><br>
+        <img alt="Google" src="googlelogo.png" height="92" width="272" align="center" title="Google">
+        <form action="https://google.com/search">
+            <input id="q" type="text" name="q"><br>
+            <div>
+                <input class="submit" type="submit" value="Google Search">
+                <input class="submit" type="submit" name="btnI" value="I'm Feeling Lucky">
+            </div>
+        </form>
+    </body>
+</html>
